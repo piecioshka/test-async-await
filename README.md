@@ -2,7 +2,11 @@
 
 > :ledger: Use ES2017 syntax to write async code in sync approach.
 
-## Full code
+## Demo
+
+Enter here: https://piecioshka.github.io/test-async-await/demo/index.html
+
+## Source code
 
 File: `./src/main.js`
 
@@ -29,16 +33,16 @@ setup()
 
 DevTools logs:
 
-```cmd
-main.js:11 1487801656244
-main.js:17 app is ready
+```
+> 1487801656244
+> 'app is ready'
 ```
 
 ## Support
 
 * Google Chrome v56.0.2924.87 (64-bit)
 
-**Fork project and append your browser (with version) if feature is supported.**
+_**Fork project and append your browser (with version) if feature is supported.**_
 
 ## License
 
