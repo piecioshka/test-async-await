@@ -1,16 +1,15 @@
-# test-async-await
+# async-await-example
 
 :ledger: Use ES2017 syntax to write async code in sync approach.
 
 ## Demo 🎉
 
-<https://piecioshka.github.io/test-async-await/demo/>
+<https://piecioshka.github.io/async-await-example/>
 
 ## Source code
 
-File: `./src/main.js`
-
-```javascript
+```js
+// main.js
 function fakeRequest() {
     const response = Date.now(); // fake data
     return new Promise((resolve) => {
@@ -22,20 +21,20 @@ function fakeRequest() {
 
 async function setup() {
     const response = await fakeRequest();
-    console.log(response);
+    console.log(response); // 1487801656244
     return 'app is ready';
 }
 
 setup()
     .then((status) => {
-        console.log(status);
+        console.log(status); // 'app is ready'
     })
     .catch((err) => {
         console.error(err);
     });
 ```
 
-DevTools logs:
+DevTools Console:
 
 ```text
 > 1487801656244
@@ -46,7 +45,7 @@ DevTools logs:
 
 * Google Chrome v56.0.2924.87 (64-bit)
 
-_**If the feature is supported fork project and append your browser.**_
+More details on [Can I use?](https://caniuse.com/#search=async) page.
 
 ## License
 

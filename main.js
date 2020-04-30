@@ -9,13 +9,13 @@ function fakeRequest() {
 
 async function setup() {
     const response = await fakeRequest();
-    console.log(response);
+    console.log(response); // 1487801656244
     return 'app is ready';
 }
 
 setup()
     .then((status) => {
-        console.log(status);
+        console.log(status); // 'app is ready'
     })
     .catch((err) => {
         console.error(err);
