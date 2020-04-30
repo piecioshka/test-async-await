@@ -45,7 +45,7 @@ DevTools Console:
 
 * Google Chrome v56.0.2924.87 (64-bit)
 
-More details on [Can I use?](https://caniuse.com/#search=async) page.
+More details on [Can I use](https://caniuse.com/#feat=async-functions).
 
 ## License
 
