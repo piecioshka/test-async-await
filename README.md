@@ -1,10 +1,10 @@
-# async-await-example
+# test-async-await
 
 :ledger: Use ES2017 syntax to write async code in sync approach.
 
 ## Demo 🎉
 
-<https://piecioshka.github.io/async-await-example/>
+<https://piecioshka.github.io/test-async-await/>
 
 ## Source code
 
