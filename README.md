@@ -2,7 +2,7 @@
 
 :ledger: Use ES2017 syntax to write async code in sync approach.
 
-## Demo 🎉
+## Preview 🎉
 
 <https://piecioshka.github.io/test-async-await/>
 
